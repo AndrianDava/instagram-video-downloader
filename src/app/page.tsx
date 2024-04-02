@@ -95,7 +95,7 @@ export default function HomePage() {
             "py-2 text-center text-2xl font-extrabold text-white sm:text-4xl"
           )}
         >
-          Instagram Video Downloader
+          Instagram Downloader
         </h1>
         <InstagramForm />
       </section>
@@ -117,8 +117,7 @@ export default function HomePage() {
                 "animate-rgb bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 bg-clip-text text-transparent"
               )}
             >
-              <span>By</span>
-              <span>Andzz</span>
+              <span>By Andzz</span>
             </div>
           </div>
         </section>
