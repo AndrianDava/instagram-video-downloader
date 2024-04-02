@@ -98,10 +98,6 @@ export default function HomePage() {
           Instagram Video Downloader
         </h1>
         <InstagramForm />
-        <p className="my-4 text-center text-xs text-white md:text-sm">
-          If the download opens a new page, just right click the video and then
-          click `Save as video`
-        </p>
       </section>
 
       <div className="mx-auto mb-12 mt-8 flex w-full max-w-3xl flex-col gap-8 px-2 text-sm md:px-4 md:text-base">
