@@ -104,20 +104,33 @@ export default function HomePage() {
         </p>
       </section>
 
-     
-        <hr className="w-full" />
-
-        <section id="benefits">
-          <h2 className={cn("py-2 text-xl font-semibold sm:text-2xl")}>
-            Benefits of using our Downloader
-          </h2>
-          <ul className="list-disc space-y-2 pl-6">
-            {BENEFITS_LIST.map((benefit, index) => (
-              <li key={index}>{benefit}</li>
-            ))}
-          </ul>
+      <div className="mx-auto mb-12 mt-8 flex w-full max-w-3xl flex-col gap-8 px-2 text-sm md:px-4 md:text-base">
+        <section id="logo">
+          <div className="flex w-full items-center justify-center gap-4">
+            <Image
+              src={"/images/logo.png"}
+              width={300}
+              height={300}
+              alt="logo"
+              className="h-32 w-32 md:h-40 md:w-40"
+            />
+            <div
+              aria-label="Logo"
+              className={cn(
+                "flex select-none flex-col items-start text-2xl font-extrabold md:text-5xl",
+                "animate-rgb bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 bg-clip-text text-transparent"
+              )}
+            >
+              <span>Instagram Videos</span>
+              <span>Downloader</span>
+            </div>
+          </div>
         </section>
 
+        <hr className="w-full" />
+        <hr className="w-full" />
+        <hr className="w-full" />
+        <hr className="w-full" />
         <hr className="w-full" />
 
         <section id="faq">
