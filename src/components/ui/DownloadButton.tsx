@@ -32,7 +32,7 @@ const DownloadButton = (props: DownloadButtonProps) => {
             className="animate-spin text-xl"
             aria-hidden="true"
           />
-          <span aria-hidden="true">Fetching</span>
+          <span aria-hidden="true">LOAD...</span>
         </>
       ) : (
         <>
