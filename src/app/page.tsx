@@ -117,8 +117,8 @@ export default function HomePage() {
                 "animate-rgb bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 bg-clip-text text-transparent"
               )}
             >
-              <span>Instagram Videos</span>
-              <span>Downloader</span>
+              <span>By</span>
+              <span>Andzz</span>
             </div>
           </div>
         </section>
