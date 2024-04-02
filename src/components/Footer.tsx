@@ -11,19 +11,7 @@ const Footer = () => {
           We are not affiliated with Instagram or Meta
         </div>
         <div className="flex items-center gap-1">
-          <Link
-            href="/terms-of-service"
-            className="text-sm text-primary hover:underline"
-          >
-            Terms of Service
-          </Link>
-          <span aria-hidden="true">|</span>
-          <Link
-            href="/privacy-policy"
-            className="text-sm text-primary hover:underline"
-          >
-            Privacy Policy
-          </Link>
+          
         </div>
       </div>
     </footer>
