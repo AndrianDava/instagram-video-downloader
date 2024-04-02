@@ -126,26 +126,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
-        <hr className="w-full" />
-        <hr className="w-full" />
-        <hr className="w-full" />
-        <hr className="w-full" />
-        <hr className="w-full" />
-
-        <section id="faq">
-          <h2 className={cn("py-2 text-xl font-semibold sm:text-2xl")}>
-            Frequently Asked Questions - FAQ
-          </h2>
-          <ul className="list-disc pl-6">
-            {FAQ_LIST.map(({ question, answer }, index) => (
-              <li key={index} className="mb-2">
-                <p className="font-semibold">{question}</p>
-                <p>{answer}</p>
-              </li>
-            ))}
-          </ul>
-        </section>
         <hr className="w-full" />
       </div>
     </main>
